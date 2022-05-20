@@ -1,6 +1,7 @@
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 40px;
+    color: darkblue;
 }
 
 body {
@@ -15,14 +16,25 @@ body {
 }
 
 #board td {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border: solid 1px #666;
     position: relative;
 
 
 }
 
+#p2-color {
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+#start-game {
+    background-color: darkblue;
+    color: aliceblue;
+    margin-bottom: 8px;
+}
 
 /* styling the pieces */
 .piece {
@@ -36,14 +48,7 @@ body {
     animation: drop 0.5s ease-in-out;
 }
 
-/* coloring the pieces between p1 and p2 */
-.piece.p1 {
-    background-color: fuchsia;
-}
 
-.piece.p2 {
-    background-color: lime;
-}
 
 
 
